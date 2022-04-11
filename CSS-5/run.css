@@ -1,0 +1,171 @@
+html
+{
+    background-image: url(./sky.jpg);
+    background-repeat: no-repeat;
+    animation: rotate 10s infinite linear;
+    
+}
+@keyframes rotate {
+    from
+    {
+        background-position: 50% 0;
+    }
+    to
+    {
+        background-position: 50% - (1550*2);
+    }
+    
+}
+.hea
+{
+    display: inline-flex;
+    flex-flow: row wrap;
+    
+}
+.a1
+{
+    background-color: orangered;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.a2
+{
+    background-color: aliceblue;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+.a3
+{
+    background-color: rgb(4, 179, 4);
+    margin-top: 0px;
+}
+/* .road
+{
+    position: absolute;
+    top: 500px;
+} */
+.road
+{
+    height: 200px;
+    width: 1550px;
+    filter: contrast(100%);
+    background-image: url(./road.jpg);
+    position: absolute;
+    top: 500px;
+   animation: rotate 15s infinite linear;
+}
+@keyframes rotate {
+    from
+    {
+        background-position: 50% 0;
+    }
+    to
+    {
+        background-position: 50% - (1550*2);
+    }
+    
+}
+.city
+{
+    height: 300px;
+    width: 1550px;
+    filter: brightness(-10%);
+    background-image: url(./city.png);
+    position: absolute;
+    top: 250px;
+    animation: rotate 10s infinite linear;
+}
+@keyframes rotate {
+    from
+    {
+        background-position: 50% 0;
+    }
+    to
+    {
+        background-position: 50% - (1550*2);
+    }
+    
+}
+
+.sun
+{   
+    position: absolute;
+    left: 1350px;
+    animation: rotatet 400s infinite linear;
+}
+@keyframes rotatet {
+    from
+    {
+        background-position: 50% 0;
+    }
+    to
+    {
+        /* background-position: 50% + (100*2); */
+        left: -100%;
+    }
+    
+}
+.car
+{
+    position: absolute;
+    top: 360px;
+    left: 480px;
+}
+.wheel1
+{
+    position: absolute;
+    top: 485px;
+    left: 520px;
+}
+.wheel1
+{
+   animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from
+    {
+        
+        transform: rotate(0deg);  
+    }
+    to
+    {
+        transform: rotate(359deg); 
+    }
+    
+}
+.wheel2
+{
+    position: absolute;
+    top: 485px;
+    left: 795px;
+}
+.wheel2
+{
+   animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from
+    {
+        
+        transform: rotate(0deg);  
+    }
+    to
+    {
+        transform: rotate(359deg); 
+    }
+    
+}
+.flag
+{
+    position: absolute;
+    top: 378px;
+    left: 820px;
+}
+.flag2
+{
+    position: absolute;
+    top: 378px;
+    left: 808px;
+    transform: rotateY(180deg)
+}
+

@@ -1,0 +1,132 @@
+html
+{
+    background-color: yellow;
+}
+h2
+{
+    text-align: center;
+}
+.ano
+{
+   height: 850px;
+   width: 1460px;
+   display: inline-flex;
+   flex-flow: column wrap;
+   align-items: center;
+   transition: all 10s;
+   /* animation-duration: 10s;
+   animation-iteration-count: 4;
+   animation-timing-function: linear;
+   animation-delay: 2s;
+   animation-direction: alternate; */
+   /* transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+   /* animation: sohi 4s linear 2 alternate running 0s; */
+}
+.a1
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a1:hover
+{
+    width: 400px;
+    height: 100px;
+}
+/* .a1
+{
+   animation: anno 8s infinite linear;
+} */
+/* @keyframes anno {
+    from
+    {
+        transform: rotate(0deg);     
+    }
+    to
+    {
+        width: 400px;
+        height: 100px;
+    }
+    
+} */
+.a2
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a2:hover
+{
+    width: 350px;
+    height: 300px;
+}
+.a3
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a3:hover
+{
+    width: 400px;
+    height: 100px;
+}
+.a4
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a4:hover
+{
+    width: 400px;
+    height: 100px;
+}
+.a5
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a5:hover
+{
+    width: 400px;
+    height: 100px;
+}
+.a6
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a6:hover
+{
+    width: 400px;
+    height: 100px;
+}
+.a7
+{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 6s;
+}
+.a7:hover
+{
+    width: 400px;
+    height: 100px;
+}
+a
+{
+    color: red;
+} 
+.anc
+{
+    text-align: center;
+}

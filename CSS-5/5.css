@@ -1,0 +1,189 @@
+html
+{
+    background-color: #fbfb4c;
+}
+h2
+{
+    text-align: center;
+}
+.l
+{
+   height: 700px;
+   width: 500px;
+   text-align: center;
+   padding-left: 465px;
+   transition: all 10s;
+   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+   transition-delay: 0s;
+  
+   
+
+}
+.l11
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(94, 193, 153);
+    display: inline-flex;
+    flex-flow: column wrap;
+    /* transform: rotate(80deg); */
+    
+}
+.l11
+{
+    animation: rotation1 8s infinite linear;
+}
+@keyframes rotation1
+{
+    50%
+    {
+        transform: rotate(100deg);
+        transform: skew(20deg);
+    }
+    /* from
+    {
+        transform: rotate(0deg);
+    }
+    to
+    {
+        transform: rotate(90deg);
+        transform: skew(20deg);
+    } */
+    
+}
+.l21
+{
+    animation: rotation2 2s infinite linear;
+}
+@keyframes rotation2
+{
+    50%
+    {
+        transform: rotate3d(90deg);
+        transform: skewX(30deg);
+        transform: skewY(20deg);
+        /* transform: rotateY(30deg); */
+        /* transform: rotateX(30deg);  */
+        /* transform: rotate(30deg 30deg); */
+    }
+}
+.l31
+{
+   animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from
+    {
+        
+        transform: rotate(0deg);  
+    }
+    to
+    {
+        transform: rotate(150deg); 
+    }
+    
+}
+.l21
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: gray;
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+.l31
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: rgb(94, 193, 153);
+    display: inline-flex;
+    flex-flow: column wrap;
+ 
+}
+.l41
+{
+   animation: rotation41 8s infinite linear;
+}
+@keyframes rotation41 {
+    from
+    {
+        height: 130px;
+        width: 80px;        
+    }
+    to
+    {
+        width: 120px;
+        height: 60px;
+    }
+    
+}
+.l41
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid gray;
+    background-color: rgb(94, 193, 153);
+    display: inline-flex;
+    flex-flow: column wrap;
+} 
+.l42
+{
+   animation: rotation42 8s infinite linear;
+}
+@keyframes rotation42 {
+    from
+    {
+        height: 100px;
+        width: 100px;        
+    }
+    to
+    {
+        width: 30px;
+        height: 100px;
+    }
+    
+}
+.l42
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid gray;
+    background-color: maroon;
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+.l43
+{
+   animation: rotation43 8s infinite linear;
+}
+@keyframes rotation43 {
+    from
+    {
+        transform: rotate(0deg);     
+    }
+    to
+    {
+        transform: rotate(359deg);
+    }
+    
+}
+.l43
+{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    border: 1px solid gray;
+    background-color:green;   
+    display: inline-flex;
+    flex-flow: column wrap;
+}
+a
+{
+    color: red;
+    font-weight: bold;
+}
