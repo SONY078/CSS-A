@@ -1,0 +1,286 @@
+html
+{
+    /* height: 600px;
+    width: 1400px; */
+    background-image: url(./shara_desert.jpg);
+    filter: contrast(115%);
+    filter: brightness(100%);
+    /*filter: brightness(1%); 
+    filter: saturate(1.67); */
+    transition: all 12s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+
+} 
+
+.back:hover
+{
+    position: absolute;
+    top: 5px;
+}
+
+/* .bakg
+{
+    margin: 0px;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+} */
+/* .backg:hover
+{
+    position: absolute;
+    top: 15px;
+} */
+/* html:hover
+{
+    position: absolute;
+    top: 10px;
+    right: 0%;
+    left: 0%;
+    bottom: -10px;
+    
+} */
+.n
+{
+    width: 500px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+h1
+{
+    font-size: 80px;
+    color: aliceblue;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+}
+.d
+{
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 80px;
+}
+img
+{
+    width: 200px ;
+    height: 250px ;
+    /* filter: contrast(70%); */
+    margin: 0px;
+    border-radius: 10px;
+}
+.cc
+{
+    transition: all 12s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0s;
+}
+.e
+{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+}
+.e:hover
+{
+    position: absolute;
+    top: 80px;
+    right: 400px;
+}
+/* .e
+{
+    animation: updown 2s infinite linear;
+}
+@media updown {
+    from
+    {
+        /* position: absolute;
+        top: 100px;
+        right: 420px; */
+        /* background-position: 50% 0; 
+        transform: rotate(0deg); 
+    }
+    to
+    {
+        /* position: absolute;
+        top: 80px;
+        right: 420px; */
+        /* background-position: 20%; 
+        transform: rotate(359deg); 
+    }
+    
+} */
+
+.f
+{
+    position: absolute;
+    top: 100px;
+    right: 150px;
+}
+.f:hover
+{
+    position: absolute;
+    top: 80px;
+    right: 150px;
+}
+.g
+{
+    position: absolute;
+    top: 400px;
+    right: 400px;
+}
+.g:hover
+{
+    position: absolute;
+    top: 380px;
+    right: 400px;
+}
+.j
+{
+    position: absolute;
+    top: 400px;
+    right: 150px;
+}
+.j:hover
+{
+    position: absolute;
+    top: 380px;
+    right: 150px;
+}
+.ex
+{
+    position: absolute;
+    top: 520px;
+    left: 80px;
+}
+.bu
+{
+    width: 140px;
+    height: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+}
+.data
+{
+    position: absolute;
+    top: 15px;
+    left: 22px;
+    color: white;
+}
+.a1
+{
+    width: 50px;
+    height: 50px;
+    filter: brightness(150%);
+}
+.a2
+{
+    position: absolute;
+    top: -2px;
+    right: 50px;
+    width: 35px;
+    height: 35px;
+}
+.c
+{
+    
+    position: absolute;
+    top: 20px;
+    left: 80px;
+} 
+@media (max-width:860px) {
+
+    /* .img
+    {
+        width: 400px;
+        height: 250px;
+    } */
+    h1
+    {
+        font-size: 40px;
+        position: absolute;
+        top: 50px;
+        left: 80px;
+    }
+    .d
+    {
+        position:absolute;
+        top: 120px;
+        left: 80px;
+    }
+    .ex
+    {
+        position: absolute;
+        top: 190px;
+        left: 90px;
+    }
+    .e
+    {
+        position: absolute;
+        top: 280px;
+        left: 200px;
+        
+    }
+    .e:hover
+    {
+        position: absolute;
+        top: 280px;
+        left: 200px;
+    }
+    img
+    {
+        width: 450px;
+        height: 200px;
+    }
+    .f
+    {
+        position: absolute;
+        top: 500px;
+        left: 200px;
+
+    }
+    .f:hover
+    {
+        position: absolute;
+        top: 500px;
+        left: 200px;
+    }
+    .g
+    {
+        position: absolute;
+        top: 720px;
+        left: 200px;
+    }
+    .g:hover
+    {
+        position: absolute;
+        top: 720px;
+        left: 200px;
+    }
+    .j
+    {
+        position: absolute;
+        top: 940px;
+        left: 200px;
+    }
+    .j:hover
+    {
+        position: absolute;
+        top: 940px;
+        left: 200px;
+    }
+}
